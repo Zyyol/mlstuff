@@ -5,7 +5,7 @@ from sklearn.metrics import accuracy_score
 from sklearn.utils import check_array
 from sklearn.cross_validation import train_test_split
 import tensorflow as tf
-import skflow
+import tensorflow.contrib.learn as skflow
 import numpy as np
 
 data = pandas.read_csv('hygdata_v3.csv')
